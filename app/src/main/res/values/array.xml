@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item msgid="1922181315419294640"></item>
+        <item msgid="8934131797783724664">"Scanning…"</item>
+        <item msgid="8513729475867537913">"Connecting…"</item>
+        <item msgid="515055375277271756">"Authenticating…"</item>
+        <item msgid="1943354004029184381">"Obtaining IP address…"</item>
+        <item msgid="4221763391123233270">"Connected"</item>
+        <item msgid="624838831631122137">"Suspended"</item>
+        <item msgid="7979680559596111948">"Disconnecting…"</item>
+        <item msgid="1634960474403853625">"Disconnected"</item>
+        <item msgid="746097431216080650">"Unsuccessful"</item>
+        <item msgid="6367044185730295334">"Blocked"</item>
+        <item msgid="503942654197908005">"Temporarily avoiding poor connection"</item>
+    </string-array>
+
+    <string-array name="wifi_status_with_ssid">
+        <item msgid="1922181315419294640"></item>
+        <item msgid="8934131797783724664">"Scanning…"</item>
+        <item msgid="8513729475867537913">"Connecting…"</item>
+        <item msgid="515055375277271756">"Authenticating…"</item>
+        <item msgid="1943354004029184381">"Obtaining IP address…"</item>
+        <item msgid="4221763391123233270">"Connected"</item>
+        <item msgid="624838831631122137">"Suspended"</item>
+        <item msgid="7979680559596111948">"Disconnecting…"</item>
+        <item msgid="1634960474403853625">"Disconnected"</item>
+        <item msgid="746097431216080650">"Unsuccessful"</item>
+        <item msgid="6367044185730295334">"Blocked"</item>
+        <item msgid="503942654197908005">"Temporarily avoiding poor connection"</item>
+    </string-array>
+</resources>

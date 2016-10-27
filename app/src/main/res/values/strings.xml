@@ -1,0 +1,49 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">WifiConnection</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="setting_wifi_ssid_delete_ask_info">Forget this network?</string>
+    <string name="dialog_button_confir">confirm</string>
+    <string name="dialog_button_cancel">cancel</string>
+    <string name="wifi_error" msgid="3207971103917128179">"Error"</string>
+    <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_eap">802.1x EAP</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <string name="wifi_security_none" msgid="7985461072596594400">"None"</string>
+    <string name="wifi_starting" msgid="6732377932749942954">"Turning Wi‑Fi on…"</string>
+    <string name="wifi_stopping" msgid="8952524572499500804">"Turning off Wi‑Fi…"</string>
+    <string name="wifi_remembered" msgid="4955746899347821096">"Saved"</string>
+    <string name="wifi_disabled_generic" msgid="4259794910584943386">"Disabled"</string>
+
+    <string name="setting_save_success">Save success</string>
+    <string name="wifi_select_hint">Select the network</string>
+    <string name="wifi_title">WI-FI</string>
+    <string name="wifi_password_hint">Password</string>
+    <string name="wifi_dialog_connected_hint">The ssid has been saved</string>
+    <string name="wifi_disabled_network_failure" msgid="3111321240793227690">"Avoided poor Internet connection"</string>
+    <string name="wifi_disabled_password_failure" msgid="8659805351763133575">"Authentication problem"</string>
+    <string name="wifi_wps_available_first_item" msgid="4422547079984583502">"WPS available"</string>
+    <string name="wifi_wps_available_second_item" msgid="8427520131718215301">" (WPS available)"</string>
+    <string name="wifi_secured_first_item" msgid="4072076186051083451">"Secured with <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_secured_second_item" msgid="1326000076939056265">", secured with <xliff:g id="WIFI_SECURITY_SHORT">%1$s</xliff:g>"</string>
+    <string name="wifi_scan_always_turnon_message" msgid="203123538572122989">"To improve location accuracy and for other purposes, <xliff:g id="APP_NAME">%1$s</xliff:g> wants to turn on network scanning, even when Wi-Fi is off.\n\nAllow this for all apps that want to scan?"</string>
+    <string name="wifi_scan_always_confirm_allow" msgid="5355973075896817232">"Allow"</string>
+    <string name="wifi_scan_always_confirm_deny" msgid="4463982053823520710">"Deny"</string>
+</resources>

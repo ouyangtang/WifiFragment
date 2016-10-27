@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="#ffffff"
+    android:orientation="vertical">
+      <TextView
+          android:layout_marginTop="10dp"
+          android:layout_centerHorizontal="true"
+          android:id="@+id/dialog_wifi_title_ssid"
+          android:gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+
+    <EditText
+        android:layout_centerVertical="true"
+        android:textCursorDrawable="@null"
+        android:cursorVisible="true"
+        android:id="@+id/wifi_dialog_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+         />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:textCursorDrawable="@null"
+        android:id="@+id/wifi_dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+
+        />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/wifi_dialog_dismis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/dialog_wifi_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forget" />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/wifi_dialog_poss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="connect" />
+    </LinearLayout>
+
+</RelativeLayout>
